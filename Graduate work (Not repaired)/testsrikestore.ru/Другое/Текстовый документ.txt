@@ -1,0 +1,21 @@
+images/Products/AssaultRifles/
+images/Products/Pistols/
+images/Products/SubmachineGun/
+images/Products/Rifles/
+images/Products/MachineGun/
+
+Cyma - Китай
+LCT - Тайвань
+King Arms - Гонконг
+Ares - Гонконг
+A&K - Китай
+AGM - Китай
+G&G - Тайвань
+Jing Gong - Гонконг
+DBoys - Китай
+Umarex - Германия
+WE - Тайвань
+Galaxy - Тайвань
+ASG - Китай
+Gletcher - США
+KJW - Тайвань

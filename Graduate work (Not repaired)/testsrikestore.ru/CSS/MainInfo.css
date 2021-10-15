@@ -1,0 +1,123 @@
+.MainInfoDiv {
+	margin: 0 auto;
+	width: 1000px;	
+}
+
+.MainInfoName {
+	width: 100%;
+}
+
+.MainInfoNameHalf {
+	width: 50%;
+	float: left;
+	margin-bottom: 20px;
+}
+
+.MainInfoText {
+	width: 100%;
+}
+
+.MainInfoTextHalf {
+	min-height: 400px;
+	width: 50%;
+	float: left;
+}
+
+.MainInfoTextHalf img {
+	margin-top: 50px;
+}
+
+.MainTitle {
+	width: 90%;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	padding: 10px;
+	border: 1px solid;
+	border-image:url(../images/Border2.png) 1 1 1;
+}
+
+.NewsDiv {
+	display: table;
+	margin: 0 auto;
+	width: 90%;
+}
+.News {
+	overflow: hidden;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 2%;
+	margin-right: 2%;
+	width: 29%;
+	height: 300px;
+	float: left;
+	border: 1px solid;
+	border-image:url(../images/Border.png) 1 1 1;
+}
+.NewsImage {
+	display: table;
+}
+#NewsFixed {
+	height: 30px;
+}
+.NewsText {
+	overflow: hidden;
+	width: 100%;
+	height: 45px;
+}
+.NewsLink {
+	position: relative;
+	height: 15px;
+	width: 100%;
+}
+
+.RegisInp {
+	width: 250px;
+}
+
+.DivRegisBut {
+	overflow: hidden;
+	margin: 0 auto;
+	width: 164px;
+}
+.RegisBut {
+	overflow: hidden;
+	background-color: white;
+	border: 1px solid black;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 20px;
+	padding: 10px;
+}
+.RegisBut:hover {
+	background-color: black;
+	border-color: lightgrey;	
+}
+.RegisBut p{
+	font-size: 15px;
+}
+.RegisBut:hover p{
+	color: white;
+}
+
+.DivHalf {
+	width: 50%;
+	float: left;
+}
+
+.Div0x35 {
+	padding-right: 30px;
+	height: 35px;
+}
+
+.Div0x0 {
+	overflow: hidden;
+	width: 800px;
+	margin: 0 auto;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.CheckBoxClick {
+	width: 17px;
+	height: 17px;
+}

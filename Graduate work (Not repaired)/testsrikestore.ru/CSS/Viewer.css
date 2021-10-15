@@ -1,0 +1,146 @@
+
+
+
+
+.MainViewerDiv {
+	width: 100%;
+	height: 600px;
+	margin: 0 auto;
+}
+.MainViewerNewsDiv {
+	display: table;
+	width: 100%;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+.Float92x30 {
+	overflow: hidden;
+	height: 30px;
+	Width: 92%;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+.ViewerIdDiv {
+	overflow: hidden;
+	height: 23px;
+	Width: 20%;
+	padding-top: 7px;
+	float: left;
+}
+.ViewerStatusDiv {
+	overflow: hidden;
+	height: 23px;
+	Width: 50%;
+	padding-top: 7px;
+	float: left;
+}
+
+.Comparison {
+	overflow: hidden;
+	height: 30px;
+	Width: 20%;
+	float: right;
+}
+.Comparison img{
+	height: 15px;
+	Width: 15px;
+	float: right;
+	padding-left: 7px;
+}
+
+.Float92x500 {
+	overflow: hidden;
+	height: 500px;
+	Width: 92%;
+	margin: 0 auto;
+}
+
+.ViewerImgDiv {
+	overflow: hidden;
+	width: 400px;
+	height: 200px;
+	margin-left: 50px;
+	float: left;
+	border: 1px solid lightgrey;
+}
+.ViewerImgDiv img{
+	width: 400px;
+	height: 200px;
+}
+.ViewerNewsImgDiv {
+	overflow: hidden;
+	width: 600px;
+	height: 330px;
+	margin: 0 auto;
+	border: 1px solid lightgrey;
+}
+.ViewerNewsImgDiv img{
+	width: 600px;
+	height: 330px;
+}
+
+.ViewerInfoDiv {
+	overflow: hidden;
+	width: 400px;
+	height: 200px;
+	float: right;
+	margin-right: 50px;
+}
+.ViewerInfoFloat {
+	width: 100%;
+	height: 30px;
+	margin: 0 auto;
+	border-bottom: 1px dashed lightgrey;
+}
+.ViewerInfoFloatHalf {
+	width: 50%;
+	height: 30px;
+	float: left;
+}
+.ViewerButtonFloat {
+	width: 100%;
+	height: 50px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+.Buy {
+	overflow: hidden;
+	background-color: #fff0c7;
+	border: 1px solid #5782CC;
+	border-radius: 15px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 5px;
+	Width: 250px;
+	Height: 23px;
+}
+.Buy:hover {
+	background-color: #ffc966;
+	border-color: black;
+}
+.Buy:hover p {
+	color: black;
+}
+
+.ViewerAboutDiv {
+	overflow: auto;
+	width: 86.7%;
+	height: 250px;
+	margin: 0 auto;
+	margin-top: 230px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 1px solid lightgrey;
+}
+
+.ViewerNewsTextDiv {
+	display: table;
+	width: 65%;
+	margin: 0 auto;
+	margin-top: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+}

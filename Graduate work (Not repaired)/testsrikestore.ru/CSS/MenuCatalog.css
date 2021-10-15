@@ -1,0 +1,22 @@
+.MenuCatalog {
+	position: relative;
+	bottom: 0px;
+	display: table;
+	width: 890px;
+	margin: 0 auto;
+	padding: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	border: 1px dashed black;
+}
+
+.MenuList {
+	float: left;
+	width: 33%;
+}
+
+.MenuListName{
+	width: 100%;
+	text-align: left;
+	padding-top: 4px;
+}

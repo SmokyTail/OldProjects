@@ -1,0 +1,71 @@
+﻿			/* Catalog_Filtres */
+
+
+
+.CategoriesDiv {
+  	Width: 100%;
+	margin-bottom: 50px;
+	box-shadow:3px 3px 5px rgba(0, 0, 0, 0.25);
+}
+.Categories {
+	overflow: hidden;
+	Height: 21px;
+	padding-top: 9px;
+	padding-left: 9px;
+	border-bottom: 1px solid lightgrey;
+}
+
+.FiltresDiv {
+	overflow: hidden;
+  	Width: 100%;
+	box-shadow:3px 3px 5px rgba(0, 0, 0, 0.25);
+}
+.Filtres {
+	overflow: hidden;
+  	Width: 100%;
+	Height: 30px;
+	border-bottom: 1px solid lightgrey;
+}
+#FilterCost {
+	overflow: hidden;
+	Height: 120px;
+	border-bottom: 1px solid lightgrey;
+}
+#FilterCostName {
+	overflow: hidden;
+	Width: 100%;
+	Height: 30px;
+	border: none;
+}
+
+.Filtres input{
+	margin-right: 8px;
+  	Width: 17px;
+	Height: 17px;
+}
+.FromTo {
+	overflow: hidden;
+	margin-top: 10px;
+	Width: 100%;
+	Height: 30px;
+}
+.From {
+	overflow: hidden;
+	Width: 50%;
+	Height: 30px;
+	float: left;			
+}
+#InputFrom {
+	margin-left: 20px;
+	Width: 50px;			
+}
+.To {
+	overflow: hidden;
+	Width: 50%;
+	Height: 30px;
+	float: left;
+}
+#InputTo {
+	margin-left: 20px;
+	Width: 50px;		
+}

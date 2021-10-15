@@ -1,0 +1,76 @@
+﻿  SumProject.c
+C:\Users\Павел\source\repos\SumProject\SumProject\SumProject.c(32,57): warning C4047: =: "int **" отличается по уровням косвенного обращения от "int *"
+C:\Users\Павел\source\repos\SumProject\SumProject\SumProject.c(35,26): warning C4047: =: "int *" отличается по уровням косвенного обращения от "int"
+C:\Users\Павел\source\repos\SumProject\SumProject\SumProject.c(41,20): warning C4477: "printf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "1" имеет тип "int *"
+C:\Users\Павел\source\repos\SumProject\SumProject\SumProject.c(48,21): warning C4244: =: преобразование "time_t" в "clock_t", возможна потеря данных
+C:\Users\Павел\source\repos\SumProject\SumProject\SumProject.c(51,53): warning C4047: =: "int **" отличается по уровням косвенного обращения от "int *"
+C:\Users\Павел\source\repos\SumProject\SumProject\SumProject.c(56,32): warning C4047: =: "int *" отличается по уровням косвенного обращения от "int"
+C:\Users\Павел\source\repos\SumProject\SumProject\SumProject.c(60,21): warning C4244: =: преобразование "time_t" в "clock_t", возможна потеря данных
+C:\Users\Павел\source\repos\SumProject\SumProject\SumProject.c(70,13): warning C4047: return: "int" отличается по уровням косвенного обращения от "int *"
+C:\Users\Павел\source\repos\SumProject\SumProject\SumProject.c(68,1): warning C4047: инициализация: "int *" отличается по уровням косвенного обращения от "int **"
+C:\Users\Павел\source\repos\SumProject\SumProject\SumProject.c(110,29): warning C4047: =: "void *" отличается по уровням косвенного обращения от "int"
+C:\Users\Павел\source\repos\SumProject\SumProject\SumProject.c(128,22): warning C4244: функция: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\Павел\source\repos\SumProject\SumProject\SumProject.c(130,21): warning C4244: =: преобразование "time_t" в "clock_t", возможна потеря данных
+C:\Users\Павел\source\repos\SumProject\SumProject\SumProject.c(139,29): warning C4047: =: "void *" отличается по уровням косвенного обращения от "int"
+C:\Users\Павел\source\repos\SumProject\SumProject\SumProject.c(153,21): warning C4244: =: преобразование "time_t" в "clock_t", возможна потеря данных
+C:\Users\Павел\source\repos\SumProject\SumProject\SumProject.c(162,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Павел\source\repos\SumProject\SumProject\SumProject.c(169,15): warning C4047: return: "int" отличается по уровням косвенного обращения от "Node *"
+C:\Users\Павел\source\repos\SumProject\SumProject\SumProject.c(202,42): warning C4047: функция: "int **" отличается по уровням косвенного обращения от "int *"
+C:\Users\Павел\source\repos\SumProject\SumProject\SumProject.c(202,41): warning C4024: DEA: различные типы для формального и фактического параметров 4
+C:\Users\Павел\source\repos\SumProject\SumProject\SumProject.c(202,53): warning C4047: =: "int *" отличается по уровням косвенного обращения от "int"
+C:\Users\Павел\source\repos\SumProject\SumProject\SumProject.c(412,41): warning C4047: =: "void *" отличается по уровням косвенного обращения от "int"
+C:\Users\Павел\source\repos\SumProject\SumProject\SumProject.c(432,37): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Павел\source\repos\SumProject\SumProject\SumProject.c(433,32): warning C4477: "printf": в строке форматирования "%i" требуется аргумент типа "int", но вариативный аргумент "1" имеет тип "void *"
+C:\Users\Павел\source\repos\SumProject\SumProject\SumProject.c(453,45): warning C4047: =: "void *" отличается по уровням косвенного обращения от "int"
+C:\Users\Павел\source\repos\SumProject\SumProject\SumProject.c(473,41): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Павел\source\repos\SumProject\SumProject\SumProject.c(474,36): warning C4477: "printf": в строке форматирования "%i" требуется аргумент типа "int", но вариативный аргумент "1" имеет тип "void *"
+C:\Users\Павел\source\repos\SumProject\SumProject\SumProject.c(490,45): warning C4047: =: "void *" отличается по уровням косвенного обращения от "int"
+C:\Users\Павел\source\repos\SumProject\SumProject\SumProject.c(510,41): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Павел\source\repos\SumProject\SumProject\SumProject.c(511,36): warning C4477: "printf": в строке форматирования "%i" требуется аргумент типа "int", но вариативный аргумент "1" имеет тип "void *"
+C:\Users\Павел\source\repos\SumProject\SumProject\SumProject.c(532,45): warning C4047: =: "void *" отличается по уровням косвенного обращения от "int"
+C:\Users\Павел\source\repos\SumProject\SumProject\SumProject.c(552,41): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Павел\source\repos\SumProject\SumProject\SumProject.c(553,36): warning C4477: "printf": в строке форматирования "%i" требуется аргумент типа "int", но вариативный аргумент "1" имеет тип "void *"
+C:\Users\Павел\source\repos\SumProject\SumProject\SumProject.c(564,50): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Павел\source\repos\SumProject\SumProject\SumProject.c(571,50): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Павел\source\repos\SumProject\SumProject\SumProject.c(575,36): warning C4477: "printf": в строке форматирования "%i" требуется аргумент типа "int", но вариативный аргумент "1" имеет тип "void *"
+C:\Users\Павел\source\repos\SumProject\SumProject\SumProject.c(575,36): warning C4477: "printf": в строке форматирования "%i" требуется аргумент типа "int", но вариативный аргумент "2" имеет тип "void *"
+C:\Users\Павел\source\repos\SumProject\SumProject\SumProject.c(595,45): warning C4047: =: "void *" отличается по уровням косвенного обращения от "int"
+C:\Users\Павел\source\repos\SumProject\SumProject\SumProject.c(617,45): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Павел\source\repos\SumProject\SumProject\SumProject.c(618,40): warning C4477: "printf": в строке форматирования "%i" требуется аргумент типа "int", но вариативный аргумент "1" имеет тип "void *"
+C:\Users\Павел\source\repos\SumProject\SumProject\SumProject.c(635,45): warning C4047: =: "void *" отличается по уровням косвенного обращения от "int"
+C:\Users\Павел\source\repos\SumProject\SumProject\SumProject.c(655,41): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Павел\source\repos\SumProject\SumProject\SumProject.c(656,36): warning C4477: "printf": в строке форматирования "%i" требуется аргумент типа "int", но вариативный аргумент "1" имеет тип "void *"
+C:\Users\Павел\source\repos\SumProject\SumProject\SumProject.c(682,37): warning C4244: =: преобразование "time_t" в "clock_t", возможна потеря данных
+C:\Users\Павел\source\repos\SumProject\SumProject\SumProject.c(694,41): warning C4244: =: преобразование "time_t" в "clock_t", возможна потеря данных
+C:\Users\Павел\source\repos\SumProject\SumProject\SumProject.c(735,29): warning C4244: =: преобразование "time_t" в "clock_t", возможна потеря данных
+C:\Users\Павел\source\repos\SumProject\SumProject\SumProject.c(736,62): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Павел\source\repos\SumProject\SumProject\SumProject.c(743,38): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Павел\source\repos\SumProject\SumProject\SumProject.c(796,33): warning C4244: =: преобразование "time_t" в "clock_t", возможна потеря данных
+C:\Users\Павел\source\repos\SumProject\SumProject\SumProject.c(852,38): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Павел\source\repos\SumProject\SumProject\SumProject.c(857,41): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Павел\source\repos\SumProject\SumProject\SumProject.c(862,32): warning C4477: "printf": в строке форматирования "%i" требуется аргумент типа "int", но вариативный аргумент "1" имеет тип "void *"
+C:\Users\Павел\source\repos\SumProject\SumProject\SumProject.c(865,39): warning C4018: >=: несоответствие типов со знаком и без знака
+C:\Users\Павел\source\repos\SumProject\SumProject\SumProject.c(865,71): warning C4018: <=: несоответствие типов со знаком и без знака
+C:\Users\Павел\source\repos\SumProject\SumProject\SumProject.c(870,41): warning C4018: >: несоответствие типов со знаком и без знака
+C:\Users\Павел\source\repos\SumProject\SumProject\SumProject.c(875,32): warning C4477: "printf": в строке форматирования "%i" требуется аргумент типа "int", но вариативный аргумент "1" имеет тип "void *"
+C:\Users\Павел\source\repos\SumProject\SumProject\SumProject.c(934,32): warning C4477: "printf": в строке форматирования "%i" требуется аргумент типа "int", но вариативный аргумент "1" имеет тип "void *"
+C:\Users\Павел\source\repos\SumProject\SumProject\SumProject.c(947,32): warning C4477: "printf": в строке форматирования "%i" требуется аргумент типа "int", но вариативный аргумент "1" имеет тип "void *"
+C:\Users\Павел\source\repos\SumProject\SumProject\SumProject.c(1006,33): warning C4018: >=: несоответствие типов со знаком и без знака
+C:\Users\Павел\source\repos\SumProject\SumProject\SumProject.c(1010,36): warning C4018: >=: несоответствие типов со знаком и без знака
+C:\Users\Павел\source\repos\SumProject\SumProject\SumProject.c(1019,33): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Павел\source\repos\SumProject\SumProject\SumProject.c(1022,44): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Павел\source\repos\SumProject\SumProject\SumProject.c(1030,44): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Павел\source\repos\SumProject\SumProject\SumProject.c(1038,36): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Павел\source\repos\SumProject\SumProject\SumProject.c(1041,44): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Павел\source\repos\SumProject\SumProject\SumProject.c(1049,44): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Павел\source\repos\SumProject\SumProject\SumProject.c(1057,39): warning C4047: =: "void *" отличается по уровням косвенного обращения от "int"
+C:\Users\Павел\source\repos\SumProject\SumProject\SumProject.c(1064,37): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Павел\source\repos\SumProject\SumProject\SumProject.c(1065,32): warning C4477: "printf": в строке форматирования "%i" требуется аргумент типа "int", но вариативный аргумент "1" имеет тип "void *"
+C:\Users\Павел\source\repos\SumProject\SumProject\SumProject.c(1111,33): warning C4018: >=: несоответствие типов со знаком и без знака
+C:\Users\Павел\source\repos\SumProject\SumProject\SumProject.c(1122,41): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Павел\source\repos\SumProject\SumProject\SumProject.c(1127,47): warning C4047: =: "void *" отличается по уровням косвенного обращения от "int"
+C:\Users\Павел\source\repos\SumProject\SumProject\SumProject.c(1134,37): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Павел\source\repos\SumProject\SumProject\SumProject.c(1135,32): warning C4477: "printf": в строке форматирования "%i" требуется аргумент типа "int", но вариативный аргумент "1" имеет тип "void *"
+C:\Users\Павел\source\repos\SumProject\SumProject\SumProject.c(1055,1): warning C4047: инициализация: "int" отличается по уровням косвенного обращения от "void *"
+C:\Users\Павел\source\repos\SumProject\SumProject\SumProject.c(17): warning C4716: PE: должна возвращать значение
+  SumProject.vcxproj -> C:\Users\Павел\source\repos\SumProject\Debug\SumProject.exe

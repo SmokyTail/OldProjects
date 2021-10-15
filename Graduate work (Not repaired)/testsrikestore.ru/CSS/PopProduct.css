@@ -1,0 +1,22 @@
+						      /* PopularProduct */
+
+
+
+.PopProductsDiv{
+  margin: 0 auto;
+  padding-top: 10px;
+	Width: 1000px;
+	Height: 440px;
+}
+.PopProducts{
+  margin: 0 auto;
+	Width: 1000px;
+	Height: 440px;
+}
+.PopProdText{
+	margin-bottom: 20px;
+	padding-left: 10px;
+	text-align: center;
+	Width: 990px;
+	Height: 20px;
+}

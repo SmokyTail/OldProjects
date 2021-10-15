@@ -1,0 +1,11 @@
+import Graphs_1
+graph=Graphs_1.get_graph()
+v,w=map(int,input().split(' '))
+print(Graphs_1.adjacency(graph,v,w))
+v=int(input())
+print(Graphs_1.all_adjacency(graph,v))
+v=int(input())
+print(Graphs_1.top_weight(graph,v))
+v,w=map(int,input().split(' '))
+print(Graphs_1.edge_weight(graph,v,w))
+Graphs_1.all_edges(graph)

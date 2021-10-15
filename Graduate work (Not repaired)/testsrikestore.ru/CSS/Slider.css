@@ -1,0 +1,123 @@
+﻿						/* SlideShow */
+
+
+
+.SlideShowDiv{
+margin-top: 20px;
+padding-left: 24px;
+padding-right: 24px;
+Width: 952px;
+Height: 380px;
+}
+
+.SlideShow{
+overflow: hidden;
+float: left;
+border-radius: 30px;
+Width: 650px;
+Height: 357px;
+box-shadow:0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.SlideShow img{
+border-radius: 30px;
+Width: 650px;
+Height: 357px;
+Max-Width: 100%;
+Max-Height: 100%;
+Display: none;
+}
+.active img{
+Display: block;
+}
+
+.SlideShow2{
+overflow: hidden;
+float: right;
+margin-top: 27px;
+border-radius: 15px;
+Width: 280px;
+Height: 155px;
+box-shadow:0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.SlideShow2 img{
+border-radius: 15px;
+Width: 280px;
+Height: 155px;
+Max-Width: 100%;
+Max-Height: 100%;
+Display: none;
+}
+.active2 img{
+Display: block;
+}
+
+.SlideShow3{
+overflow: hidden;
+float: right;
+margin-top: 20px;
+border-radius: 15px;
+Width: 280px;
+Height: 155px;
+box-shadow:0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.SlideShow3 img{
+border-radius: 15px;
+Width: 280px;
+Height: 155px;
+Max-Width: 100%;
+Max-Height: 100%;
+Display: none;
+}
+.active3 img{
+Display: block;
+}
+
+
+
+					/* DiscNewAboutButtonDiv */
+
+
+
+.DiscNewAboutButtonDiv{
+margin: 0 auto;
+Width: 1000px;
+Height: 77px;
+}
+
+.DiscNewAboutButton{
+overflow: hidden;
+background-color: white;
+float: left;
+margin-left: 22px;
+border: 1px solid #6495ed;
+padding-right: 3px;
+Width: 217px;
+Height: 75px;
+box-shadow:0px 0px 10px rgba(0, 0, 0, 0.25);
+}
+#LeftBut{
+border-top-left-radius: 22px;
+border-bottom-left-radius: 22px;
+}
+#RightBut{
+border-top-right-radius: 22px;
+border-bottom-right-radius: 22px;
+}
+.DiscNewAboutButton:hover{
+background-color: #f5f5f5;
+border-color: #5782CC;
+box-shadow:0px 0px 20px rgba(100, 149, 237, 0.75);
+}
+.DiscNewAboutButton img{
+overflow: hidden;
+float: left;
+Width: 75px;
+Height: 75px;
+}
+.DiscNewAboutButton:hover p{
+color: #5782CC;
+}
+#Manufacturer {
+margin-top: 10px;
+margin-bottom: 10px;
+}

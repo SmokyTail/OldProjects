@@ -1,0 +1,7 @@
+C:\Users\Pasha\source\repos\CSLab01\CSLab01\bin\Debug\CSLab01.exe.config
+C:\Users\Pasha\source\repos\CSLab01\CSLab01\bin\Debug\CSLab01.exe
+C:\Users\Pasha\source\repos\CSLab01\CSLab01\bin\Debug\CSLab01.pdb
+C:\Users\Pasha\source\repos\CSLab01\CSLab01\obj\Debug\CSLab01.csprojAssemblyReference.cache
+C:\Users\Pasha\source\repos\CSLab01\CSLab01\obj\Debug\CSLab01.csproj.CoreCompileInputs.cache
+C:\Users\Pasha\source\repos\CSLab01\CSLab01\obj\Debug\CSLab01.exe
+C:\Users\Pasha\source\repos\CSLab01\CSLab01\obj\Debug\CSLab01.pdb

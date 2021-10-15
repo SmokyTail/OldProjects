@@ -1,0 +1,6 @@
+C:\Users\Pasha\source\repos\CSLab00\CSLab00\bin\Debug\CSLab00.exe.config
+C:\Users\Pasha\source\repos\CSLab00\CSLab00\bin\Debug\CSLab00.exe
+C:\Users\Pasha\source\repos\CSLab00\CSLab00\bin\Debug\CSLab00.pdb
+C:\Users\Pasha\source\repos\CSLab00\CSLab00\obj\Debug\CSLab00.csproj.CoreCompileInputs.cache
+C:\Users\Pasha\source\repos\CSLab00\CSLab00\obj\Debug\CSLab00.exe
+C:\Users\Pasha\source\repos\CSLab00\CSLab00\obj\Debug\CSLab00.pdb

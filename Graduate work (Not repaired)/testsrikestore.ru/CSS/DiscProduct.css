@@ -1,0 +1,21 @@
+			            /* DiscProduct */
+
+
+
+.DiscProductsDiv{
+  margin: 0 auto;
+  padding-top: 20px;
+  Width: 1000px;
+  Height: 440px;
+}
+.DiscProducts{
+  margin: 0 auto;
+  Width: 1000px;
+  Height: 440px;
+}
+.DiscProdText{
+  margin-bottom: 10px;
+  padding-left: 10px;
+  Width: 990px;
+  Height: 20px;
+}

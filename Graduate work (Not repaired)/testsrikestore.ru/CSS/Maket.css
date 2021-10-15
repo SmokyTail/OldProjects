@@ -1,0 +1,853 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike,
+strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption,
+footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  outline: none;
+}
+html {
+	height: 101%;
+}
+body {
+	background-image:url(../images/BG.png);
+	font-size: 62.5%;
+	line-height: 1;
+	font-family: Arial, Tahoma, Verdana, sans-serif;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+
+strong {
+	font-weight: bold;
+}
+
+input {
+	outline: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+img {
+	border: 0;
+	Max-Width: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	font-family:'Arial', sans-serif;
+}
+
+p, s{
+	font-family:'Arial', sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+
+
+.MegaDiv{
+	position: relative;
+	Min-height: 100%;
+	Width: 100%;
+}
+
+
+
+						/* HEADER */
+
+
+
+.HeaderBG1{
+	background-color: #6495ed;
+	position: absolute;
+	z-index: 1;
+	Width: 100%;
+	Height: 100px;
+}
+.HeaderBG2{
+	background-color: black;
+	position: absolute;
+	z-index: 1;
+  margin-top: 100px;
+	Width: 100%;
+	Height: 50px;
+}
+
+.MainDivHeader{
+  Position: relative;
+	background-color: white;
+  margin: 0 auto;
+  Max-Width: 1000px;
+  Min-Width: 1000px;
+  Width: 90%;
+	Height: 190px;
+  z-index: 2;
+}
+
+.Header1{
+	background-color: #6495ed;
+	Width: 100%;
+	Height: 100px;
+}
+.TEmblem{
+	background-image:url(../images/STRIKESTORE.png);
+	background-size: 140px 65px;
+	background-repeat: no-repeat;
+	float: left;
+  margin-top: 15px;
+	Width: 140px;
+	Height: 85px;
+}
+.Emblem	{
+	background-image:url(../images/emblem3.png);
+	background-size: 200px 100px;
+	background-repeat: no-repeat;
+	float: left;
+	Width: 200px;
+	Height: 100px;
+}
+
+.ConTelRegDiv{
+	float: left;
+  Min-Width: 360px;
+	Width: auto;
+	Height: 100px;
+}
+.ContactTelephon{
+	float: left;
+	margin-top: 10px;
+	padding-left: 10px;
+	Width: 170px;
+	Height: 45px;
+}
+.ContactTelephon p{
+	font-family:'Calibri', sans-serif;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
+.ContactTelephon .CTp2{
+	font-family:'Calibri', sans-serif;
+	color: white;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+.Region{
+	padding-left: 10px;
+	Width: 170px;
+	Height: 45px;
+}
+.Region p{
+	font-family:'Calibri', sans-serif;
+	color: white;
+	font-size: 16px;
+}
+.Region a{
+	font-family:'Calibri', sans-serif;
+	color: white;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: underline dashed;
+}
+.Region a:hover{
+	text-decoration: underline;
+}
+
+.RegVhodProf{
+  float: right;
+  Width: 190px;
+  height: 100px;
+  padding-right: 10px;
+}
+.Registr{
+	background-color: white;
+	text-align: center;
+	float: right;
+	margin-top: 35px;
+	padding-top: 9px;
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+	Width: 115px;
+	Height: 21px;
+}
+.Registr p{
+	color: #6494ed;
+}
+.Registr:hover{
+	background-color: #f5f5f5;
+}
+.Vhod	{
+	background-color: #6494ed;
+	text-align: center;
+	float: right;
+	margin-top: 35px;
+	padding-top: 9px;
+	border-bottom-right-radius: 10px;
+	border-top-right-radius: 10px;
+	Width: 60px;
+	Height: 21px;
+}
+.Vhod:hover{
+	background-color: #5782CC;
+}
+
+.KorzDiv{
+  Width: 70px;
+  Height: 70px;
+  float: right;
+  padding: 15px;
+}
+.Korz	{
+	background-color: white;
+	text-align: center;
+	Width: 70px;
+	Height: 70px;
+	border-radius: 10px;
+}
+.Korz:hover{
+	background-color: #f5f5f5;
+}
+.Korz img{
+	Width: 70px;
+	Height: 70px;
+}
+
+.Header2{
+	background-color: black;
+  margin: 0 auto;
+	Width: 100%;
+	Height: 50px;
+}
+.Catalog{
+	background-color: #ffc966;
+	float: left;
+  margin-right: 10px;
+	padding-top: 20px;
+	text-align: center;
+	Width: 90px;
+	Height: 30px;
+}
+.Catalog p{
+	color: black;
+  font-weight: bold;
+}
+.NewsBut	{
+	float: left;
+  	margin-top: 10px;
+  	margin-right: 10px;
+	padding-top: 10px;
+	text-align: center;
+	Width: 100px;
+	Height: 20px;
+	border-radius: 10px;
+}
+.NewsBut:hover{
+	background-color: #6495ed;
+}
+.SO	{
+	float: left;
+  	margin-top: 10px;
+  	margin-right: 10px;
+	padding-top: 10px;
+	text-align: center;
+	Width: 150px;
+	Height: 20px;
+	border-radius: 10px;
+}
+.SO:hover{
+	background-color: #6495ed;
+}
+.Dos	{
+	float: left;
+  margin-top: 10px;
+  margin-right: 10px;
+	padding-top: 10px;
+	text-align: center;
+	Width: 100px;
+	Height: 20px;
+	border-radius: 10px;
+}
+.Dos:hover{
+	background-color: #6495ed;
+}
+.Gar	{
+	float: left;
+  margin-top: 10px;
+  margin-right: 10px;
+	padding-top: 10px;
+	text-align: center;
+	Width: 95px;
+	Height: 20px;
+	border-radius: 10px;
+}
+.Gar:hover{
+	background-color: #6495ed;
+}
+.Kon	{
+	float: left;
+  margin-top: 10px;
+  margin-right: 10px;
+	padding-top: 10px;
+	text-align: center;
+	Width: 100px;
+	Height: 20px;
+	border-radius: 10px;
+}
+.Kon:hover{
+	background-color: #6495ed;
+}
+
+.Social	{
+	background-color: white;
+	float: right;
+  	margin-top: 10px;
+  	margin-right: 10px;
+	text-align: center;
+	Width: 30px;
+	Height: 30px;
+	border-radius: 10px;
+}
+.Social:hover{
+	background-color: #f5f5f5;
+}
+.Social img{
+	Width: 30px;
+	Height: 30px;
+}
+
+.SearchBlockBG{
+	background-color: black;
+	float: right;
+	Width: 350px;
+	height: 20px;
+}
+.LeftElemS{
+	background-color: white;
+	border-top-right-radius: 22px;
+	float: right;
+	margin-right: -50px;
+	Width: 50px;
+	height: 40px;
+}
+.SearchBlock{
+	background-color: black;
+	border-bottom-right-radius: 22px;
+	border-bottom-left-radius: 22px;
+	float: right;
+	margin-right: -300px;
+	Width: 250px;
+	height: 40px;
+}
+.SearchBlock input{
+	border-top-left-radius: 22px;
+	border-bottom-left-radius: 22px;
+	border-color: #f5f5f5;
+	float: left;
+	margin-top: 7px;
+	margin-left: 10px;
+	padding-left: 15px;
+	Width: 177px;
+	height: 19px;
+}
+.SearchBlock input:focus{
+	outline: none;
+}
+.Search	{
+	background-color: white;
+	float: right;
+  margin-top: 7px;
+  margin-right: 10px;
+	text-align: center;
+	Width: 30px;
+	Height: 21px;
+	border: 2px inset;
+	border-color: #f5f5f5;
+	border-bottom-right-radius: 22px;
+	border-top-right-radius: 22px;
+}
+.Search:hover{
+	background-color: #f5f5f5;
+}
+.Search img{
+	Width: 30px;
+	Height: 30px;
+}
+.RightElemS{
+	background-color: white;
+	border-top-left-radius: 22px;
+	float: right;
+	margin-right: -350px;
+	Width: 50px;
+	height: 40px;
+}
+
+
+
+						/* SlideShow/DiskNewButton/PopularProduct/DiscProduct/Tovar */
+
+
+
+.MainDiv{
+	background-color: white;
+  margin: 0 auto;
+  Width: 90%;
+  Max-Width: 1000px;
+  Min-Width: 1000px;
+	Height: 1600px;
+}
+
+
+
+						/* SlideShow */
+
+
+
+.SlideShowDiv{
+	padding-left: 24px;
+	padding-right: 24px;
+	Width: 952px;
+	Height: 397px;
+}
+
+.SlideShow{
+	overflow: hidden;
+	float: left;
+	border-radius: 30px;
+	Width: 650px;
+	Height: 357px;
+}
+.SlideShow img{
+	border-radius: 30px;
+	Width: 650px;
+	Height: 357px;
+	Max-Width: 100%;
+	Max-Height: 100%;
+	Display: none;
+}
+.active img{
+	Display: block;
+}
+
+.SlideShow2{
+	overflow: hidden;
+	float: right;
+	margin-top: 27px;
+	border-radius: 15px;
+	Width: 280px;
+	Height: 155px;
+}
+.SlideShow2 img{
+	border-radius: 15px;
+	Width: 280px;
+	Height: 155px;
+	Max-Width: 100%;
+	Max-Height: 100%;
+	Display: none;
+}
+.active2 img{
+	Display: block;
+}
+
+.SlideShow3{
+	overflow: hidden;
+	float: right;
+	margin-top: 20px;
+	border-radius: 15px;
+	Width: 280px;
+	Height: 155px;
+}
+.SlideShow3 img{
+	border-radius: 15px;
+	Width: 280px;
+	Height: 155px;
+	Max-Width: 100%;
+	Max-Height: 100%;
+	Display: none;
+}
+.active3 img{
+	Display: block;
+}
+
+
+
+						/* DiscNewAboutButtonDiv */
+
+
+
+.DiscNewAboutButtonDiv{
+	margin: 0 auto;
+	Width: 1000px;
+	Height: 77px;
+}
+
+.DiscNewAboutButton{
+	background-color: white;
+	float: left;
+	margin-left: 22px;
+	border: 1px solid #6495ed;
+	padding-right: 3px;
+	Width: 217px;
+	Height: 75px;
+}
+#LeftBut{
+  border-top-left-radius: 22px;
+  border-bottom-left-radius: 22px;
+}
+#RightBut{
+  border-top-right-radius: 22px;
+  border-bottom-right-radius: 22px;
+}
+.DiscNewAboutButton:hover{
+	background-color: #f5f5f5;
+	border-color: #5782CC;
+}
+.DiscNewAboutButton img{
+	float: left;
+	Width: 75px;
+	Height: 75px;
+}
+.DiscNewAboutButton P{
+	padding-top: 20px;
+	font-size: 17px;
+	color: #6495ed;
+}
+.DiscNewAboutButton p:hover{
+	color: #5782CC;
+}
+.DiscNewAboutButton .P2{
+	padding-top: 28px;
+}
+
+
+						/* PopularProduct */
+
+
+
+.PopTovarsDiv{
+  margin: 0 auto;
+  padding-top: 40px;
+	Width: 1000px;
+	Height: 440px;
+}
+.PopTovars{
+  margin: 0 auto;
+	Width: 1000px;
+	Height: 440px;
+}
+.PopTovText{
+	margin-bottom: 10px;
+	padding-left: 10px;
+	text-align: center;
+	Width: 990px;
+	Height: 20px;
+}
+.PopTovText{
+	margin-bottom: 10px;
+	padding-left: 10px;
+	Width: 990px;
+	Height: 20px;
+}
+.PopTovText p{
+	font-size: 16px;
+}
+
+
+
+						/* DiscProduct */
+
+
+.DiscTovarsDiv{
+  margin: 0 auto;
+  padding-top: 40px;
+  Width: 1000px;
+  Height: 440px;
+}
+.DiscTovars{
+  margin: 0 auto;
+	Width: 1000px;
+	Height: 440px;
+}
+.DiscTovText{
+	margin-bottom: 10px;
+	padding-left: 10px;
+	text-align: center;
+	Width: 990px;
+	Height: 20px;
+}
+.DiscTovText{
+	margin-bottom: 10px;
+	padding-left: 10px;
+	Width: 990px;
+	Height: 20px;
+}
+.DiscTovText p{
+	font-size: 16px;
+}
+
+
+
+						/* Tovar */
+
+
+
+.Tovar	{
+	background-color: white;
+	float: left;
+	margin-left: 22px;
+	Border: 1px solid darkgrey;
+	border-radius: 10px;
+	text-align: center;
+	Width: 220px;
+	Height: 400px;
+}
+.Tovar p, s{
+	font-size: 18px;
+}
+.Status	{
+	text-align: center;
+	Width: 220px;
+	Height: 20px;
+}
+.Status	p{
+	font-size: 13px;
+}
+.Discount{
+	Position: Absolute;
+	margin-top: 20px;
+	margin-left: 160px;
+	Width: 50px;
+	Height: 50px;
+}
+.Discount img{
+	Width: 50px;
+	Height: 50px;
+}
+.ProductPhoto{
+	Width: 220px;
+	Height: 200px;
+}
+.ProductPhoto img{
+	margin-top: 50px;
+	Width: 200px;
+	Height: 100px;
+}
+.ProductName{
+	text-align: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	Width: 200px;
+	Height: 45px;
+}
+.ProductName p{
+	color: #6495ed;
+	font-size: 17px;
+	text-decoration: underline;
+}
+.ProductName p:hover{
+	text-decoration: none;
+}
+.ProductName p:active{
+	color: #6495ed;
+}
+.ProductInfo{
+	text-align: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	Width: 200px;
+	Height: 35px;
+}
+.ProductInfo p{
+	font-size: 14px;
+}
+.ProductCostDisc{
+	float: left;
+	text-align: left;
+	padding-top: 20px;
+	padding-left: 10px;
+	Width: 100px;
+	Height: 20px;
+}
+.ProductCostDisc s{
+	color: grey;
+}
+.ProductCost{
+	float: right;
+	text-align: right;
+	padding-top: 20px;
+	padding-right: 10px;
+	Width: 100px;
+	Height: 20px;
+}
+.Buy    {
+	background-color: #fff0c7;
+	border: 1px solid #5782CC;
+	border-radius: 10px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 58px;
+	padding: 2px;
+	Width: 175px;
+	Height: 20px;
+}
+.Buy p	{
+	font-size: 15px;
+	color: #6495ed;
+}
+.Buy:hover{
+	background-color: #ffc966;
+	border-color: black;
+}
+.Buy:hover p{
+	color: black;
+}
+
+
+
+						/* Footer */
+
+
+
+.FooterBG{
+	background-color: black;
+	position: absolute;
+  bottom: 0;
+  Width: 100%;
+  height: 30px;
+}
+.Footer	{
+	margin: 0 auto;
+	Width: 1000px;
+	Height: 30px;
+}
+
+
+
+
+
+@media screen and (Min-Width: 1281px) and (Max-Width: 1679px){
+
+	.MainDivHeader{
+    Max-Width: 1300px;
+    Min-Width: 1000px;
+    Width: 78%;
+	}
+
+  .MainDiv{
+    Max-Width: 1300px;
+    Min-Width: 1000px;
+    Width: 78%;
+  }
+
+  .SlideShowDiv{
+    margin: 0 auto;
+  }
+
+}
+
+@media screen and (Min-Width: 1680px){
+
+  .MainDivHeader{
+    Max-Width: 1300px;
+    Width: 1300px;
+	}
+
+  .MainDiv{
+    Max-Width: 1300px;
+    Width: 1300px;
+  }
+
+  /*.ConTelRegDiv{
+    Max-Width: 560px;
+    Min-Width: 360px;
+	}
+
+  .ContactTelephon{
+    margin-top: 27px;
+    Width: ;
+	}
+
+  .ContactTelephon #CT2{
+    text-align: center;
+  }
+
+	.Region{
+    margin-top: 27px;
+    padding-top: 4px;
+    float: right;
+    text-align: right;
+    Width: ;
+    height: 41px;
+	}*/
+
+  .SlideShowDiv{
+    float: left;
+  }
+
+  .DiscNewAboutButtonDiv{
+    float: left;
+    width: 300px;
+    margin-top: 27px;
+  }
+
+  .DiscNewAboutButton{
+    margin-top: 6px;
+    margin-left: 0px;
+    width: 270px;
+  }
+  #LeftBut{
+    margin-top: 0px;
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+    border-bottom-left-radius: 0px;
+  }
+  .DiscNewAboutButton .P1{
+    padding-top: 28px;
+  }
+  #ThreeBut{
+    margin-top: 9px;
+  }
+  #RightBut{
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 22px;
+    border-bottom-right-radius: 22px;
+  }
+  .PopTovarsDiv{
+    padding-top: 0px;
+    float: left;
+    width: 1300px;
+  }
+  .PopTovars{
+    width: 1242px;
+  }
+  .PopTovText{
+  	text-align: center;
+  	Width: 1232px;
+  	Height: 20px;
+  }
+  .DiscTovars{
+    float: left;
+  }
+}

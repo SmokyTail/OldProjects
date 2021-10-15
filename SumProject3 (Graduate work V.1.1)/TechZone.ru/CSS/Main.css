@@ -1,0 +1,1542 @@
+							/* MAIN */
+
+
+.MegaDiv{
+	position: relative;
+	top: -30px;
+	Min-height: 100%;
+	Min-width: 1000px;
+	Width: 100%;
+}
+
+.MainDiv{
+	display: table;
+	background-color: white;
+  	margin: 0 auto;
+
+	padding-top: 15px;
+	padding-bottom: 20px;
+  	Max-Width: 1000px;
+  	Min-Width: 1000px;
+	Min-Height: 100%;
+	box-shadow: 0px -25px 40px 25px rgba(200, 200, 200, 0.5);
+}
+
+.CatalogMainDiv {
+	overflow: hidden;
+	display: table;
+	min-height: 100%;
+}
+
+.LeftBlock {
+	Width: 220px;
+	float: left;
+}
+
+.RightBlock {
+	Width: 770px;
+	float: right;
+}
+
+/* Footer */
+
+.FooterBG{
+	background-color: black;
+	position: absolute;
+	bottom: -30px;
+	Width: 100%;
+	height: 30px;
+}
+.Footer	{
+	position: absolute;
+	overflow: hidden;
+	margin: 0 auto;
+	Width: 1000px;
+	Height: 30px;
+}
+#MiniFooter {
+	position: relative;
+	border-radius: 0px 0px 15px 15px;
+}
+
+/* ScrollUp */
+
+.scrollUp {
+	background: url(../images/ScrollUp.png);
+	background-size: 50px 50px;
+	position: fixed;
+	bottom: 25px;
+	right: 40px;
+	display: none;
+	width: 50px;
+	height: 50px;
+	z-index: 1000;
+}
+.scrollUp:hover {
+	cursor: pointer;
+}
+
+/* Way */
+
+.WayDiv {
+	position: absolute;
+	margin-top: -15px;
+	padding-left: 40px;
+	padding-right: 40px;
+	Width: 920px;
+	Height: 20px;
+}
+
+
+							/* HEADER */
+
+
+
+.HeaderBG1{
+	background-color: #6495ed;
+	position: absolute;
+	z-index: 1;
+	Width: 100%;
+	Height: 100px;
+}
+.HeaderBG2{
+	background-color: black;
+	position: absolute;
+	z-index: 1;
+  	margin-top: 100px;
+	Width: 100%;
+	Height: 50px;
+}
+
+.MainDivHeader{
+  	Position: relative;
+	background-color: white;
+  	margin: 0 auto;
+  	Max-Width: 1000px;
+  	Width: 1000px;
+	z-index: 1;
+	Height: 190px;
+}
+
+.Header1{
+	overflow: hidden;
+	background-color: black;
+	Width: 1000px;
+	margin-top: 30px;
+	Height: 100px;
+	z-index: 2;
+}
+
+.ConTelRegDiv{
+	float: left;
+	background-color: #6495ed;
+	border-bottom-right-radius: 50px;
+	border-top-right-radius: 50px;
+	Min-Width: 330px;
+	Width: auto;
+	Height: 100px;
+}
+.ContactTelephon{
+	float: left;
+	margin-top: 20px;
+	padding-left: 10px;
+	Width: 145px;
+	Height: 35px;
+}
+
+.Region{
+	padding-left: 10px;
+	Width: 155px;
+	Height: 45px;
+}
+
+.Emblem	{
+	background-image: url(../images/emblem6.PNG);
+	background-color: black;
+	background-size: 340px 100px;
+	background-repeat: no-repeat;
+	float: left;
+	Width: 340px;
+	Height: 100px;
+}
+
+.BaskRegLogDiv {
+	float: right;
+	background-color: #6495ed;
+	border-bottom-left-radius: 50px;
+	border-top-left-radius: 50px;
+	Min-Width: 330px;
+	Width: auto;
+	Height: 100px;
+}
+
+.BasketDiv{
+	Width: 50px;
+	Height: 50px;
+	float: left;
+	padding-top: 25px;
+	margin-left: 40px;
+}
+.Basket	{
+	background-color: white;
+	text-align: center;
+	Width: 50px;
+	Height: 50px;
+	border-radius: 15px;
+}
+.Basket:hover{
+	background-color: #f5f5f5;
+}
+.Basket img{
+	Width: 50px;
+	Height: 50px;
+}
+#BasketCount{
+	overflow: hidden;
+	position: absolute;
+	background-color: white;
+	padding: 5px;
+	margin-top: -20px;
+	margin-left: 35px;
+	width: 10px;
+	Height: 10px;
+	border: 3px solid #6495ed;
+	border-radius: 15px;
+}
+.counted{
+	display: none;
+}
+
+.RegEnterProf{
+	float: right;
+	Width: 210px;
+	height: 100px;
+	padding-right: 10px;
+}
+
+.Profile{
+	overflow: hidden;
+	background-color: white;
+	text-align: center;
+	float: right;
+	margin-top: 30px;
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+	Width: 125px;
+	Height: 30px;
+}
+.Profile:hover{
+	background-color: #f5f5f5;
+}
+#Admin{
+	Width: 145px;
+}
+
+.Registr{
+	overflow: hidden;
+	background-color: white;
+	text-align: center;
+	float: right;
+	margin-top: 35px;
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+	Width: 115px;
+	Height: 30px;
+}
+.Registr:hover{
+	background-color: #f5f5f5;
+}
+
+.Exit {
+	overflow: hidden;
+	background-color: #6495ed;
+	text-align: center;
+	float: right;
+	margin-top: 30px;
+	border-bottom-right-radius: 10px;
+	border-top-right-radius: 10px;
+	cursor: pointer;
+	Width: 65px;
+	Height: 30px;
+}
+.Exit:hover{
+	background-color: #5782CC;
+}
+
+.Enter	{
+	overflow: hidden;
+	background-color: #6495ed;
+	text-align: center;
+	float: right;
+	margin-top: 35px;
+	border-bottom-right-radius: 10px;
+	border-top-right-radius: 10px;
+	cursor: pointer;
+	Width: 60px;
+	Height: 30px;
+}
+.Enter:hover{
+	background-color: #5782CC;
+}
+
+.Header2{
+	overflow: hidden;
+	background-color: black;
+	margin: 0 auto;
+	Width: 100%;
+	Height: 50px;
+	z-index: 2;
+}
+#Catalog_Button {
+	overflow: hidden;
+	background-color: #ffc966; 
+	cursor: pointer;
+	float: left;
+	text-align: center;
+	Height: 50px;
+}
+#Catalog_Button:hover {
+	background-color: orange;
+}
+#Catalog_Button:hover .Menu {
+	display: block;
+}
+
+.Menu {
+	overflow: hidden;
+	background-color: white;
+	display: none;
+	position: absolute;
+	margin-top: 50px;
+	margin-left: -1px;
+	padding: 10px;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-radius: 0px 20px 15px 15px;
+}
+.Menu:hover{
+	display: block;
+}
+.List{
+	float: left;
+	width: 226.5px;
+}
+.ListName{
+	width: 226.5px;
+	text-align: left;
+	padding-top: 4px;
+}
+#Menu3{
+	margin-top: 15.5px;
+}
+
+.Header_Button {
+	overflow: hidden;
+	float: left;
+  	margin-left: 2px;
+ 	padding-left: 20px;
+ 	padding-right: 20px;
+	text-align: center;
+	Height: 50px;
+}
+.Header_Button:hover {
+	background-color: #333333;
+}
+
+.Social	{
+	background-color: white;
+	float: right;
+  margin-top: 10px;
+  margin-right: 10px;
+	text-align: center;
+	Width: 30px;
+	Height: 30px;
+	border-radius: 10px;
+}
+.Social:hover{
+	background-color: #f5f5f5;
+}
+.Social img{
+	Width: 30px;
+	Height: 30px;
+}
+
+.SearchBlockBG{
+	background-color: black;
+	float: right;
+	Width: 350px;
+	height: 20px;
+}
+.LeftElemS{
+	background-color: white;
+	border-top-right-radius: 22px;
+	float: right;
+	margin-right: -50px;
+	Width: 50px;
+	height: 40px;
+}
+.SearchBlock{
+	background-color: black;
+	border-bottom-right-radius: 22px;
+	border-bottom-left-radius: 22px;
+	float: right;
+	margin-right: -300px;
+	Width: 250px;
+	height: 40px;
+}
+.SearchBlock .Input{
+	border-top-left-radius: 22px;
+	border-bottom-left-radius: 22px;
+	border-color: #f5f5f5;
+	float: left;
+	margin-top: 7px;
+	margin-left: 10px;
+	padding: 0;
+	padding-left: 15px;
+	Width: 177px;
+	height: 21px;
+}
+.SearchBlock .Input:focus{
+	outline: none;
+}
+.Searcher{
+	overflow: hidden;
+	background-color: white;
+	float: right;
+  	margin-top: 7px;
+  	margin-right: 10px;
+	text-align: center;
+	Width: 30px;
+	Height: 21px;
+	border: 2px inset;
+	border-color: #f5f5f5;
+	border-bottom-right-radius: 22px;
+	border-top-right-radius: 22px;
+}
+.Searcher img{
+	Width: 20px;
+	Height: 20px;
+	margin-top: 1px;
+	margin-right: 5px;
+}
+.Searcher .Submit{
+	background-color: transparent;
+	position: relative;
+	Width: 35px;
+	Height: 25px;
+	top: -25px;
+	margin-left: -2px;
+	cursor: pointer;
+	border: 0px;
+}
+.Searcher:hover .submit{
+	background-color: rgba(245, 245, 245, 0.5);
+}
+.RightElemS{
+	background-color: white;
+	border-top-left-radius: 22px;
+	float: right;
+	margin-right: -350px;
+	Width: 50px;
+	height: 40px;
+}
+
+
+
+							/* HIDEAUTHORIZATIONFORM */
+
+
+
+.ModalShadow {
+	overflow: hidden;
+	position: absolute; 
+	top: 0; 
+	right: 0; 
+	bottom: 0; 
+	left: 0; 
+	background-color: #000;
+	opacity: 0.5; 
+	display: none; 
+	z-index: 900; 
+} 
+
+.ModalWindowDiv {
+	position: fixed;
+	margin-top: 20%;
+	top: 0px;
+	height: 0px;
+	width: 100%;
+	z-index: 950;
+}
+
+.ModalWindow {
+	overflow: hidden;
+	margin: 0 auto;
+	width: 340px;
+	height: 300px;
+	text-align: center;
+	border: 1px solid black;
+	display: none;
+	background-color: white;
+	box-shadow:0px 0px 100px rgba(0, 0, 0, 0.75);
+	z-index: 1000;
+} 
+.WindowFloatOne {
+	position: relative;
+	width: 100%;
+	height: 15%;
+}
+.WindowFloatTwo {
+	position: relative;
+	width: 100%;
+	height: 22%;
+}
+.WindowFloatThree {
+	position: relative;
+	width: 100%;
+	height: 11%;
+}
+.WindowFloatFour {
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	height: 30%;
+}
+
+.Close { 
+	position: absolute; 
+	top: 5px;
+	right: 5px;
+	width: 20px;
+	height: 20px; 
+	cursor: pointer; 
+	text-align: center; 
+	color: white; 
+	font: normal 14px/20px Arial, Helvetica, sans-serif; 
+	background: black;
+}
+
+.ModalWindow input { 
+	border-color: #f5f5f5;
+	margin-top: 7px;
+	padding-left: 5px;
+	Width: 180px;
+	height: 20px;
+}
+.ModalWindow input[type="submit"] {
+	Width: 100px;
+	height: 25px;
+	margin: 0 auto;
+	cursor: pointer;
+	border: 1px solid #6494ed; 
+	border-radius: 10px;
+	background-color: white;
+}
+.ModalWindow input[type="submit"]:hover {
+	border: 1px solid #5782CC; 
+	background-color: #f5f5f5;
+}
+
+
+
+
+							/* CATALOG_PRODUCT */
+
+
+
+.FloatOne {
+  overflow: hidden;
+  margin: 0 auto;
+  height: 30px;
+  Width: 95%;
+}
+.CategoriesName {
+  height: 30px;
+  Width: 33%;
+  float: left;
+}
+#SearchName {
+  Width: 66%;
+}
+.OnPage {
+  height: 30px;
+  Width: 32%;
+  float: left;
+}
+.Comparison {
+  height: 30px;
+  Width: 21%;
+  float: right;
+}
+.Comparison img{
+  height: 15px;
+  Width: 15px;
+  float: right;
+  padding-left: 7px;
+}
+.Sorting {
+  background-color: white;
+  height: 30px;
+  Width: 14%;
+  float: right;
+}
+
+.FloatTwo {
+  display: table;
+  overflow: hidden;
+  margin: 0 auto;
+  height: 30px;
+  max-height: 30px;
+  max-Width: 95%;
+}
+.PageButton {
+  overflow: hidden;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  margin-right: 5px;
+  padding-top: 3px;
+  height: 17px;
+  Width: 20px;
+  float: left;
+  Border: 1px solid black;
+  border-radius: 5px;
+}
+.PageButton:hover {
+  background-color:  #e5e5e5;
+}
+#current {
+  background-color:  #bed2f7;
+}
+
+.CatalogDiv {
+  display: table;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+#Tovar {
+  margin-top: 15px;
+  margin-left: 25px;
+}
+
+
+
+							/* CATALOG_FILTRES */
+
+
+
+.CategoriesDiv {
+  	Width: 100%;
+	margin-bottom: 50px;
+	box-shadow:3px 3px 5px rgba(0, 0, 0, 0.25);
+}
+.Categories {
+	overflow: hidden;
+	Height: 21px;
+	padding-top: 9px;
+	padding-left: 9px;
+	border-bottom: 1px solid lightgrey;
+}
+
+.FiltresDiv {
+	overflow: hidden;
+  	Width: 100%;
+	box-shadow:3px 3px 5px rgba(0, 0, 0, 0.25);
+}
+.Filtres {
+	overflow: hidden;
+  	Width: 100%;
+	Height: 30px;
+	border-bottom: 1px solid lightgrey;
+}
+#FilterCost {
+	overflow: hidden;
+	Height: 120px;
+	border-bottom: 1px solid lightgrey;
+}
+#FilterCostName {
+	overflow: hidden;
+	Width: 100%;
+	Height: 30px;
+	border: none;
+}
+
+.Filtres input{
+	margin-right: 8px;
+  	Width: 17px;
+	Height: 17px;
+}
+.FromTo {
+	overflow: hidden;
+	margin-top: 10px;
+	Width: 100%;
+	Height: 30px;
+}
+.From {
+	overflow: hidden;
+	Width: 50%;
+	Height: 30px;
+	float: left;			
+}
+#InputFrom {
+	margin-left: 20px;
+	Width: 50px;			
+}
+.To {
+	overflow: hidden;
+	Width: 50%;
+	Height: 30px;
+	float: left;
+}
+#InputTo {
+	margin-left: 20px;
+	Width: 50px;		
+}
+
+
+
+							/* PRODUCT */
+
+
+
+.Tovar {
+	overflow: hidden;
+	background-color: white;
+	float: left;
+	margin-left: 22px;
+	Border: 1px solid darkgrey;
+	border-radius: 10px;
+	text-align: center;
+	Width: 220px;
+	Height: 385px;
+	box-shadow:0px 0px 10px rgba(0, 0, 0, 0.25);
+}
+.Tovar:hover {
+	box-shadow:0px 0px 20px rgba(100, 149, 237, 0.75);
+}
+.Status	{
+	text-align: center;
+	Width: 220px;
+	Height: 20px;
+}
+.Discount {
+	Position: Absolute;
+	margin-top: 20px;
+	margin-left: 160px;
+	Width: 50px;
+	Height: 50px;
+}
+.Discount img {
+	overflow: hidden;
+	Width: 50px;
+	Height: 50px;
+}
+.ProductPhoto {
+	Width: 220px;
+	Height: 200px;
+}
+.ProductPhoto img {
+	margin-top: 20px;
+	Height: 160px;
+}
+.ProductName {
+	overflow: hidden;
+	text-align: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	Width: 200px;
+	Height: 45px;
+}
+.ProductInfo {
+	overflow: hidden;
+	text-align: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	Width: 200px;
+	Height: 40px;
+}
+.ProductCostDisc {
+	overflow: hidden;
+	float: left;
+	text-align: left;
+	padding-left: 10px;
+	Width: 100px;
+	Height: 20px;
+}
+.ProductCost {
+	overflow: hidden;
+	float: right;
+	text-align: right;	
+	padding-right: 10px;
+	Width: 100px;
+	Height: 20px;
+}
+.Buy {
+	overflow: hidden;
+	background-color: #fff0c7;
+	border: 1px solid #5782CC;
+	border-radius: 10px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 30px;
+	padding: 2px;
+	Width: 175px;
+	Height: 30px;
+	cursor: pointer;
+}
+.Buy:hover {
+	background-color: #ffc966;
+	border-color: black;
+}
+.Buy:hover p {
+	color: black;
+}
+
+
+
+							/* CART */
+
+
+
+.CartMainBlock{
+	overflow: hidden;	
+	padding-top: 15px;
+	margin-left: 50px;
+	Width: 900px;
+	Height: auto;
+}
+
+.EmptyCartBlock{
+	text-align: center;
+	overflow: hidden;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	margin-left: 250px;
+	padding-bottom: 20px;
+	Width: 400px;
+	Height: auto;
+}
+
+.CartLeft{
+	Width: 693px;
+	Height: auto;
+	float: left;
+}
+.CartProduct{
+	Width: 693px;
+	Height: 140px;
+}
+.CartName{
+	Width: 200px;
+	padding-left: 10px;
+	float: left;
+}
+.CartImg{
+	text-align: center;
+	Width: 133px;
+	float: left;
+}
+.CartImg img{
+	height: 100px;
+}
+.CartCount{
+	Width: 120px;
+	text-align: center;
+	padding-top: 23px;
+	float: left;
+}
+.CartPriceBlock{
+	Width: 70px;
+	padding-top: 15px;
+	padding-left: 10px;
+	float: left;	
+}
+.CartDiscPrice{
+	Width: 70px;
+	height: 20px;
+	text-align: center;
+}
+.CartPrice{
+	Width: 70px;
+	height: 25px;
+	text-align: center;
+}
+.CartDelete{
+	Width: 130px;
+	padding-top: 23px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+	float: left;
+}
+
+.CartRight{
+	background-color: #6495ed;
+	float: right;	
+	Width: 207px;
+	Height: 240px;
+	text-align: center;
+	border-radius: 25px;
+}
+.CartBlueOrder{
+	background-color: Black;
+	Width: 207px;
+	Height: 189px;
+	border-radius: 25px 25px 25px 25px;
+}
+.CartButtonOrder{
+	background-color: #ffc966;
+	Width: 147px;
+	Height: 20px;
+	padding: 10px;
+	margin-top: 25px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+	border-radius: 15px;
+	cursor: pointer;
+}
+.CartButtonOrder:hover{
+	background-color: orange;
+}
+
+
+
+							/* SLIDER */
+
+
+
+.SlideShowDiv{
+	margin-top: 20px;
+	padding-left: 24px;
+	padding-right: 24px;
+	Width: 952px;
+	Height: 400px;
+}
+
+.SlideShow{
+	overflow: hidden;
+	float: left;
+	border-radius: 30px;
+	Width: 650px;
+	Height: 357px;
+	box-shadow:0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.SlideShow img{
+	border-radius: 30px;
+	Width: 650px;
+	Height: 357px;
+	Max-Width: 100%;
+	Max-Height: 100%;
+	Display: none;
+}
+.active img{
+	Display: block;
+}
+
+.SlideShow2{
+	overflow: hidden;
+	float: right;
+	margin-top: 27px;
+	border-radius: 15px;
+	Width: 280px;
+	Height: 155px;
+	box-shadow:0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.SlideShow2 img{
+	border-radius: 15px;
+	Width: 280px;
+	Height: 155px;
+	Max-Width: 100%;
+	Max-Height: 100%;
+	Display: none;
+}
+.active2 img{
+	Display: block;
+}
+
+.SlideShow3{
+	overflow: hidden;
+	float: right;
+	margin-top: 20px;
+	border-radius: 15px;
+	Width: 280px;
+	Height: 155px;
+	box-shadow:0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.SlideShow3 img{
+	border-radius: 15px;
+	Width: 280px;
+	Height: 155px;
+	Max-Width: 100%;
+	Max-Height: 100%;
+	Display: none;
+}
+.active3 img{
+	Display: block;
+}
+
+.progress{	
+	background: rgba(0,0,0,0.1);
+	justify-content: flex-start;
+	border-radius: 100px;
+	align-items: center;
+	position: absolute;
+	padding: 0px 2px 0px 2px;
+	display: flex;
+	height: 6px;
+	width: 596px;
+	margin-top: 345px;
+	margin-left: 25px;
+}
+.progress-value{
+	animation: load 5s normal forwards infinite linear;
+	box-shadow: 0 10px 40px -10px #fff;
+	border-radius: 100px;
+	background: #6495ed;
+	height: 2px;
+	width: 0;
+}
+@keyframes load{
+	0% { width: 0; }
+	100% { width: 100%; }
+}
+
+.SliderKeyDiv{
+	float: left;
+	Height: 30px;
+	Width: 475px;
+	padding-top: 6px;
+	padding-left: 87.5px;
+}
+.SliderKey{
+	background-size: 25px 25px;
+	float: left;
+	Height: 25px;
+	Width: 25px;
+	Margin-left: 5px;
+	Margin-right: 5px;
+	Margin-top: 2px;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+	cursor: pointer;
+}
+#leftArrow{
+	background-image: url(../images/ScrollLeft.PNG);
+	border-radius: 0px 0px 0px 12px;
+}
+#rightArrow{
+	background-image: url(../images/ScrollRight.PNG);
+	border-radius: 0px 0px 12px 0px;
+}
+.SliderPoint{
+	float: left;
+	Height: 5px;
+	Width: 405px;
+	Margin-top: 14px;
+}
+#SliderPoint{
+	float: left;
+	border-radius: 2px;
+	Width: 75px;
+	Margin-left: 3px;
+	Margin-right: 3px;
+	box-shadow:0px 0px 4px rgba(0, 0, 0, 0.5);
+}
+.unactivePoint{	
+	background-color: rgba(0, 0, 0, 0.2);	
+	Height: 3px;
+}
+.activePoint{
+	background-color: rgba(0, 0, 0, 0.5);
+	Height: 5px;
+}
+
+/* DiscNewAboutButtonDiv */
+
+.DiscNewAboutButtonDiv{
+	margin: 0 auto;
+	Width: 1000px;
+	Height: 77px;
+}
+
+.DiscNewAboutButton{
+	overflow: hidden;
+	background-color: white;
+	float: left;
+	margin-left: 22px;
+	border: 1px solid #6495ed;
+	padding-right: 3px;
+	Width: 217px;
+	Height: 75px;
+	box-shadow:0px 0px 10px rgba(0, 0, 0, 0.25);
+}
+#LeftBut{
+	border-top-left-radius: 22px;
+	border-bottom-left-radius: 22px;
+}
+#RightBut{
+	border-top-right-radius: 22px;
+	border-bottom-right-radius: 22px;
+}
+.DiscNewAboutButton:hover{
+	background-color: #f5f5f5;
+	border-color: #5782CC;
+	box-shadow:0px 0px 20px rgba(100, 149, 237, 0.75);
+}
+.DiscNewAboutButton img{
+	overflow: hidden;
+	float: left;
+	Width: 75px;
+	Height: 75px;
+}
+.DiscNewAboutButton:hover p{
+	color: #5782CC;
+}
+#Manufacturer {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+
+							/* DISCPRODUCT */
+
+
+
+.DiscProductsDiv{
+  margin: 0 auto;
+  padding-top: 20px;
+  Width: 1000px;
+  Height: 440px;
+}
+.DiscProducts{
+  margin: 0 auto;
+  Width: 1000px;
+  Height: 440px;
+}
+.DiscProdText{
+  padding-left: 10px;
+  Width: 990px;
+  Height: 20px;
+}
+
+
+
+						    /* POPULARPRODUCT */
+
+
+
+.PopProductsDiv{
+	margin: 0 auto;
+	padding-top: 10px;
+	Width: 1000px;
+	Height: 440px;
+}
+.PopProducts{
+	margin: 0 auto;
+	Width: 1000px;
+	Height: 440px;
+}
+.PopProdText{
+	padding-left: 10px;
+	text-align: center;
+	Width: 990px;
+	Height: 20px;
+}
+
+
+
+							/* VIEWER */
+
+
+
+.MainViewerDiv {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+.MainViewerNewsDiv {
+	display: table;
+	width: 100%;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+.Float92x30 {
+	overflow: hidden;
+	height: 30px;
+	Width: 92%;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+.ViewerIdDiv {
+	overflow: hidden;
+	height: 23px;
+	Width: 20%;
+	padding-top: 7px;
+	float: left;
+}
+.ViewerStatusDiv {
+	overflow: hidden;
+	height: 23px;
+	Width: 50%;
+	padding-top: 7px;
+	float: left;
+}
+
+.Comparison {
+	overflow: hidden;
+	height: 30px;
+	Width: 20%;
+	float: right;
+}
+.Comparison img{
+	height: 15px;
+	Width: 15px;
+	float: right;
+	padding-left: 7px;
+}
+
+.Float92x500 {
+	overflow: hidden;
+	height: auto;
+	Width: 92%;
+	margin: 0 auto;
+}
+
+.ViewerImgDiv {
+	text-align: center;
+	overflow: hidden;
+	width: 400px;
+	height: 320px;
+	margin-left: 50px;
+	float: left;
+	border: 1px solid lightgrey;
+}
+.ViewerImgDiv img{
+	margin-top: 10px;
+	height: 300px;
+}
+.ViewerNewsImgDiv {
+	overflow: hidden;
+	width: 600px;
+	height: 330px;
+	margin: 0 auto;
+	border: 1px solid lightgrey;
+}
+.ViewerNewsImgDiv img{
+	width: 600px;
+	height: 330px;
+}
+
+.ViewerInfoDiv {
+	overflow: hidden;
+	width: 400px;
+	height: 330px;
+	float: right;
+	margin-right: 50px;
+}
+.ViewerInfoFloat {
+	width: 100%;
+	height: 30px;
+	margin: 0 auto;
+	border-bottom: 1px dashed lightgrey;
+}
+.ViewerInfoFloatHalf {
+	width: 50%;
+	height: 30px;
+	float: left;
+}
+.ViewerButtonFloat {
+	width: 100%;
+	height: 50px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+.BuyViewer {
+	overflow: hidden;
+	background-color: #fff0c7;
+	border: 1px solid #5782CC;
+	border-radius: 15px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 5px;
+	Width: 250px;
+	Height: 23px;
+	cursor: pointer;
+}
+.BuyViewer:hover {
+	background-color: #ffc966;
+	border-color: black;
+}
+.BuyViewer:hover p {
+	color: black;
+}
+
+.ViewerAboutDiv {
+	overflow: auto;
+	width: 880px;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 230px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	border: 1px solid lightgrey;
+}
+
+.ViewerNewsTextDiv {
+	display: table;
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.CharacteristicBlock {
+	float: left;
+	height: auto;
+	width: 440px;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#Left {
+	float: right;
+	margin-top: 2px;
+}
+
+
+
+							/* MENUCATALOG */
+
+
+
+.MenuCatalog {
+	position: relative;
+	bottom: 0px;
+	display: table;
+	width: 890px;
+	margin: 0 auto;
+	padding: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	border: 1px dashed black;
+}
+
+.MenuList {
+	float: left;
+	width: 33%;
+}
+
+.MenuListName{
+	width: 100%;
+	text-align: left;
+	padding-top: 4px;
+}
+
+
+
+							/* MAININFO */
+
+
+
+.MainInfoDiv {
+	margin: 0 auto;
+	width: 1000px;	
+}
+
+.MainInfoName {
+	width: 100%;
+}
+
+.MainInfoNameHalf {
+	width: 50%;
+	float: left;
+	margin-bottom: 20px;
+}
+
+.MainInfoText {
+	width: 100%;
+}
+
+.MainInfoTextHalf {
+	min-height: 400px;
+	width: 50%;
+	float: left;
+}
+.MainInfoTextHalf img {
+	margin-top: 50px;
+}
+
+.MainTitle {
+	width: 90%;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	padding: 10px;
+	border: 1px solid;
+	border-image:url(../images/Border2.png) 1 1 1;
+}
+
+.NewsDiv {
+	display: table;
+	margin: 0 auto;
+	width: 90%;
+}
+.News {
+	overflow: hidden;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 2%;
+	margin-right: 2%;
+	width: 29%;
+	height: 300px;
+	float: left;
+	border: 1px solid;
+	border-image:url(../images/Border.png) 1 1 1;
+}
+.NewsImage {
+	display: table;
+}
+#NewsFixed {
+	height: 30px;
+}
+.NewsText {
+	overflow: hidden;
+	width: 100%;
+	height: 45px;
+}
+.NewsLink {
+	position: relative;
+	height: 15px;
+	width: 100%;
+}
+
+.RegisInp {
+	width: 250px;
+}
+
+.DivRegisBut {
+	overflow: hidden;
+	margin: 0 auto;
+	width: 164px;
+}
+.RegisBut {
+	overflow: hidden;
+	background-color: white;
+	border: 1px solid black;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 20px;
+	padding: 10px;
+}
+.RegisBut:hover {
+	background-color: black;
+	border-color: lightgrey;	
+}
+.RegisBut p{
+	font-size: 15px;
+}
+.RegisBut:hover p{
+	color: white;
+}
+
+.DivHalf {
+	width: 50%;
+	float: left;
+}
+
+.Div0x35 {
+	padding-right: 30px;
+	height: 35px;
+}
+
+.Div0x0 {
+	overflow: hidden;
+	width: 800px;
+	margin: 0 auto;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.CheckBoxClick {
+	width: 17px;
+	height: 17px;
+}
+
+
+
+							/* ADMIN PANEL */
+
+
+
+.AdminMainBlock {
+	overflow: hidden;
+	width: 990px;
+	height: 500px;
+	margin-bottom: -30px;
+	border-top: 5px solid black;
+	border-left: 5px solid black;
+	border-right: 5px solid black;
+	border-radius: 15px 15px 0px 0px;
+}
+.AdminLeftPanel {
+	background-color: #6495ed;
+	width: 20%;
+	float: left;
+	height: 500px;
+}
+.AdminRightPanel {
+	overflow: auto;
+	background-color: #f1f1f1;
+	width: 80%;
+	float: left;
+	height: 500px;
+}
+.AdminButtonsPanel {
+	cursor: pointer;
+	width: 100%;
+	height: 50px;
+}
+.AdminButtonsPanel:hover {
+	background-color: black;
+}
+.AdminButtonsPanel:hover p {
+	color: white;
+}
+
+.AdminCategoryButtons {
+	background-color: #ffc966;
+	cursor: pointer;
+	text-align: center;
+	margin-top: 15px;
+	margin-left: 46px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	width: 700px;
+	height: auto;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+.AdminCategoryButtons:hover {
+	background-color: orange;
+}
+#EmptyCategory {
+	background-color: white;
+}
+#EmptyCategory:hover {
+	background-color: white;
+}
+
+.AdminInp {
+	margin-left: 15px;
+	width: 740px;
+}
+#Description {
+	height: auto;
+}

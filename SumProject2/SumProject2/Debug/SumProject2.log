@@ -1,0 +1,17 @@
+﻿  Sources.c
+C:\Users\Павел\source\repos\SumProject2\SumProject2\Sources.c(28,20): warning C4047: return: "int" отличается по уровням косвенного обращения от "void *"
+C:\Users\Павел\source\repos\SumProject2\SumProject2\Sources.c(73,12): warning C4477: "printf": в строке форматирования "%s" требуется аргумент типа "char *", но вариативный аргумент "1" имеет тип "char **"
+C:\Users\Павел\source\repos\SumProject2\SumProject2\Sources.c(95,27): warning C4047: функция: "char *" отличается по уровням косвенного обращения от "char *[50]"
+C:\Users\Павел\source\repos\SumProject2\SumProject2\Sources.c(95,24): warning C4024: strcpy: различные типы для формального и фактического параметров 1
+C:\Users\Павел\source\repos\SumProject2\SumProject2\Sources.c(101,29): warning C4047: функция: "char *" отличается по уровням косвенного обращения от "char *[50]"
+C:\Users\Павел\source\repos\SumProject2\SumProject2\Sources.c(101,24): warning C4024: strcpy: различные типы для формального и фактического параметров 1
+C:\Users\Павел\source\repos\SumProject2\SumProject2\Sources.c(106,24): warning C4477: "printf": в строке форматирования "%s" требуется аргумент типа "char *", но вариативный аргумент "1" имеет тип "char **"
+C:\Users\Павел\source\repos\SumProject2\SumProject2\Sources.c(106,24): warning C4477: "printf": в строке форматирования "%s" требуется аргумент типа "char *", но вариативный аргумент "2" имеет тип "char **"
+C:\Users\Павел\source\repos\SumProject2\SumProject2\Sources.c(120,27): warning C4047: функция: "char *" отличается по уровням косвенного обращения от "char *[50]"
+C:\Users\Павел\source\repos\SumProject2\SumProject2\Sources.c(120,24): warning C4024: strcpy: различные типы для формального и фактического параметров 1
+C:\Users\Павел\source\repos\SumProject2\SumProject2\Sources.c(121,24): warning C4477: "printf": в строке форматирования "%s" требуется аргумент типа "char *", но вариативный аргумент "1" имеет тип "char **"
+C:\Users\Павел\source\repos\SumProject2\SumProject2\Sources.c(135,27): warning C4047: функция: "char *" отличается по уровням косвенного обращения от "char *[50]"
+C:\Users\Павел\source\repos\SumProject2\SumProject2\Sources.c(135,24): warning C4024: strcpy: различные типы для формального и фактического параметров 1
+C:\Users\Павел\source\repos\SumProject2\SumProject2\Sources.c(136,24): warning C4477: "printf": в строке форматирования "%s" требуется аргумент типа "char *", но вариативный аргумент "1" имеет тип "char **"
+C:\Users\Павел\source\repos\SumProject2\SumProject2\Sources.c(74): warning C4716: FIND: должна возвращать значение
+  SumProject2.vcxproj -> C:\Users\Павел\source\repos\SumProject2\Debug\SumProject2.exe

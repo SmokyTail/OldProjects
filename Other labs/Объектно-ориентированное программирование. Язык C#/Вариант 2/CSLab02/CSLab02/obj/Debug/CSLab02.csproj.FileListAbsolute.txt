@@ -1,0 +1,7 @@
+C:\Users\Павел\source\repos\CSLab02\CSLab02\obj\Debug\CSLab02.csprojAssemblyReference.cache
+C:\Users\Павел\source\repos\CSLab02\CSLab02\obj\Debug\CSLab02.csproj.CoreCompileInputs.cache
+C:\Users\Павел\source\repos\CSLab02\CSLab02\bin\Debug\CSLab02.exe.config
+C:\Users\Павел\source\repos\CSLab02\CSLab02\bin\Debug\CSLab02.exe
+C:\Users\Павел\source\repos\CSLab02\CSLab02\bin\Debug\CSLab02.pdb
+C:\Users\Павел\source\repos\CSLab02\CSLab02\obj\Debug\CSLab02.exe
+C:\Users\Павел\source\repos\CSLab02\CSLab02\obj\Debug\CSLab02.pdb

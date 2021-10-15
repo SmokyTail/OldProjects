@@ -1,0 +1,97 @@
+					/* Tovar */
+
+
+.Tovar {
+	overflow: hidden;
+	background-color: white;
+	float: left;
+	margin-left: 22px;
+	Border: 1px solid darkgrey;
+	border-radius: 10px;
+	text-align: center;
+	Width: 220px;
+	Height: 400px;
+	box-shadow:0px 0px 10px rgba(0, 0, 0, 0.25);
+}
+.Tovar:hover {
+	box-shadow:0px 0px 20px rgba(100, 149, 237, 0.75);
+}
+.Status	{
+	text-align: center;
+	Width: 220px;
+	Height: 20px;
+}
+.Discount {
+	Position: Absolute;
+	margin-top: 20px;
+	margin-left: 160px;
+	Width: 50px;
+	Height: 50px;
+}
+.Discount img {
+	overflow: hidden;
+	Width: 50px;
+	Height: 50px;
+}
+.ProductPhoto {
+	Width: 220px;
+	Height: 200px;
+}
+.ProductPhoto img {
+	margin-top: 50px;
+	Width: 200px;
+	Height: 100px;
+}
+.ProductName {
+	overflow: hidden;
+	text-align: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	Width: 200px;
+	Height: 45px;
+}
+.ProductInfo {
+	overflow: hidden;
+	text-align: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	Width: 200px;
+	Height: 40px;
+}
+.ProductCostDisc {
+	overflow: hidden;
+	float: left;
+	text-align: left;
+	padding-top: 20px;
+	padding-left: 10px;
+	Width: 100px;
+	Height: 20px;
+}
+.ProductCost {
+	overflow: hidden;
+	float: right;
+	text-align: right;
+	padding-top: 20px;
+	padding-right: 10px;
+	Width: 100px;
+	Height: 20px;
+}
+.Buy {
+	overflow: hidden;
+	background-color: #fff0c7;
+	border: 1px solid #5782CC;
+	border-radius: 10px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 58px;
+	padding: 2px;
+	Width: 175px;
+	Height: 20px;
+}
+.Buy:hover {
+	background-color: #ffc966;
+	border-color: black;
+}
+.Buy:hover p {
+	color: black;
+}

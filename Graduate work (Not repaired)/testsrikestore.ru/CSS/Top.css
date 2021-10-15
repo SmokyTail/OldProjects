@@ -1,0 +1,327 @@
+						/* HEADER */
+
+
+
+.HeaderBG1{
+	background-color: #6495ed;
+	position: absolute;
+	z-index: 1;
+	Width: 100%;
+	Height: 100px;
+}
+.HeaderBG2{
+	background-color: black;
+	position: absolute;
+	z-index: 1;
+  	margin-top: 100px;
+	Width: 100%;
+	Height: 50px;
+}
+
+.MainDivHeader{
+  	Position: relative;
+	background-color: white;
+  	margin: 0 auto;
+  	Max-Width: 1000px;
+  	Width: 1000px;
+  	/*Width: 90%;*/
+	z-index: 1;
+	Height: 190px;
+}
+
+.Header1{
+	overflow: hidden;
+	background-color: #6495ed;
+	Width: 1000px;
+	margin-top: 30px;
+	Height: 100px;
+	z-index: 2;
+}
+.TEmblem{
+	background-image:url(../images/STRIKESTORE.png);
+	background-size: 140px 65px;
+	background-repeat: no-repeat;
+	float: left;
+	margin-top: 15px;
+	Width: 140px;
+	Height: 85px;
+}
+.Emblem	{
+	background-image:url(../images/emblem3.png);
+	background-size: 200px 100px;
+	background-repeat: no-repeat;
+	float: left;
+	Width: 200px;
+	Height: 100px;
+}
+
+.ConTelRegDiv{
+	float: left;
+  Min-Width: 360px;
+	Width: auto;
+	Height: 100px;
+}
+.ContactTelephon{
+	float: left;
+	margin-top: 10px;
+	padding-left: 10px;
+	Width: 170px;
+	Height: 45px;
+}
+
+.Region{
+	padding-left: 10px;
+	Width: 170px;
+	Height: 45px;
+}
+
+.RegEnterProf{
+  float: right;
+  Width: 190px;
+  height: 100px;
+  padding-right: 10px;
+}
+
+.Profile{
+	overflow: hidden;
+	background-color: white;
+	text-align: center;
+	float: right;
+	margin-top: 30px;
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+	Width: 125px;
+	Height: 30px;
+}
+.Profile:hover{
+	background-color: #f5f5f5;
+}
+
+.Registr{
+	overflow: hidden;
+	background-color: white;
+	text-align: center;
+	float: right;
+	margin-top: 35px;
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+	Width: 115px;
+	Height: 30px;
+}
+.Registr:hover{
+	background-color: #f5f5f5;
+}
+
+.Exit	{
+	overflow: hidden;
+	background-color: #6494ed;
+	text-align: center;
+	float: right;
+	margin-top: 30px;
+	border-bottom-right-radius: 10px;
+	border-top-right-radius: 10px;
+	cursor: pointer;
+	Width: 65px;
+	Height: 30px;
+}
+.Exit:hover{
+	background-color: #5782CC;
+}
+
+.Enter	{
+	overflow: hidden;
+	background-color: #6494ed;
+	text-align: center;
+	float: right;
+	margin-top: 35px;
+	border-bottom-right-radius: 10px;
+	border-top-right-radius: 10px;
+	cursor: pointer;
+	Width: 60px;
+	Height: 30px;
+}
+.Enter:hover{
+	background-color: #5782CC;
+}
+
+.BasketDiv{
+	Width: 70px;
+	Height: 70px;
+	float: right;
+	padding: 15px;
+}
+.Basket	{
+	background-color: white;
+	text-align: center;
+	Width: 70px;
+	Height: 70px;
+	border-radius: 10px;
+}
+.Basket:hover{
+	background-color: #f5f5f5;
+}
+.Basket img{
+	Width: 70px;
+	Height: 70px;
+}
+
+.Header2{
+	overflow: hidden;
+	background-color: black;
+	margin: 0 auto;
+	Width: 100%;
+	Height: 50px;
+	z-index: 2;
+}
+#Catalog_Button {
+	overflow: hidden;
+	background-color: #ffc966; 
+	cursor: pointer;
+	float: left;
+	text-align: center;
+	Height: 50px;
+}
+#Catalog_Button:hover {
+	background-color: orange;
+}
+#Catalog_Button:hover .Menu {
+	display: block;
+}
+
+.Menu {
+	overflow: hidden;
+	background-color: white;
+	display: none;
+	position: absolute;
+	margin-top: 50px;
+	margin-left: -1px;
+	padding: 10px;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+.Menu:hover{
+	display: block;
+}
+.Menu li:hover{
+	background-color: #bed2f7;
+}
+.List{
+	float: left;
+	width: 200px;
+}
+.ListName{
+	width: 200px;
+	text-align: left;
+	padding-top: 4px;
+}
+
+.Header_Button {
+	overflow: hidden;
+	float: left;
+  	margin-left: 2px;
+ 	padding-left: 20px;
+ 	padding-right: 20px;
+	text-align: center;
+	Height: 50px;
+}
+.Header_Button:hover {
+	background-color: #333333;
+}
+
+.Social	{
+	background-color: white;
+	float: right;
+  margin-top: 10px;
+  margin-right: 10px;
+	text-align: center;
+	Width: 30px;
+	Height: 30px;
+	border-radius: 10px;
+}
+.Social:hover{
+	background-color: #f5f5f5;
+}
+.Social img{
+	Width: 30px;
+	Height: 30px;
+}
+
+.SearchBlockBG{
+	background-color: black;
+	float: right;
+	Width: 350px;
+	height: 20px;
+}
+.LeftElemS{
+	background-color: white;
+	border-top-right-radius: 22px;
+	float: right;
+	margin-right: -50px;
+	Width: 50px;
+	height: 40px;
+}
+.SearchBlock{
+	background-color: black;
+	border-bottom-right-radius: 22px;
+	border-bottom-left-radius: 22px;
+	float: right;
+	margin-right: -300px;
+	Width: 250px;
+	height: 40px;
+}
+.SearchBlock .input{
+	border-top-left-radius: 22px;
+	border-bottom-left-radius: 22px;
+	border-color: #f5f5f5;
+	float: left;
+	margin-top: 7px;
+	margin-left: 10px;
+	padding-left: 15px;
+	Width: 196px;
+	height: 25px;
+}
+.SearchBlock .input:focus{
+	outline: none;
+}
+.Search	{
+	overflow: hidden;
+	background-color: white;
+	float: right;
+  	margin-top: 7px;
+  	margin-right: 10px;
+	text-align: center;
+	Width: 30px;
+	Height: 21px;
+	border: 2px inset;
+	border-color: #f5f5f5;
+	border-bottom-right-radius: 22px;
+	border-top-right-radius: 22px;
+}
+.Search img{
+	Width: 20px;
+	Height: 20px;
+	margin-top: 1px;
+	margin-right: 5px;
+}
+.Search .submit{
+	background-color: transparent;
+	position: relative;
+	Width: 35px;
+	Height: 25px;
+	top: -25px;
+	margin-left: -2px;
+	cursor: pointer;
+	border: 0px;
+}
+.Search:hover .submit{
+	background-color: rgba(245, 245, 245, 0.5);
+}
+.RightElemS{
+	background-color: white;
+	border-top-left-radius: 22px;
+	float: right;
+	margin-right: -350px;
+	Width: 50px;
+	height: 40px;
+}
